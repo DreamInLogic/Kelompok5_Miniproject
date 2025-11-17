@@ -1,4 +1,4 @@
-# Kelompok5_Miniprojek
+# Kelompok5_Miniproject
 
 Tugas Daspem, Semangat Guys
 
