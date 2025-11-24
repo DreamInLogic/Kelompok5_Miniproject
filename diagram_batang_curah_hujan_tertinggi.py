@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Membaca data dari file Excel
-file_path = 'data jumlah curah hujan maksimum per bulan berdasarkan stasiun v1.xlsx'
+file_path = 'Data Jumlah curah hujan UPDATE.xlsx'
 df = pd.read_excel(file_path)
 
 # Membersihkan data - menghapus baris dengan nilai curah hujan kosong
@@ -68,4 +68,5 @@ print("Analisis curah hujan tertinggi per stasiun telah selesai!")
 print(f"Diagram batang disimpan sebagai: diagram_batang_curah_hujan_tertinggi.png")
 print(f"Hasil analisis disimpan sebagai: curah_hujan_tertinggi_per_stasiun.xlsx")
 print("\nRingkasan Curah Hujan Tertinggi per Stasiun:")
+
 print(df_max_info.to_string(index=False))
